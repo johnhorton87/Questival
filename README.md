@@ -8,7 +8,8 @@ Site is located at [www.questival.events](www.questival.events)
   * questival.js -> Javascript file that houses all of the functions that run questival
   * style.css -> Style sheet for formating the map and interface
   * /ajax -> Folder that houses the dynamic pages pulled in via AJAX
-    * events.php -> PHP file that queries Event info from the database, and outputs it in HTML for an AJAX request  
+    * events.php -> PHP file that queries Event info from the database and outputs it in HTML for an AJAX request
+    * orgs.php -> PHP file that queries Organization info from the database and outputs it in HTML format for an AJAX request
     * markers.php -> PHP file which downloads events based on search criteria, groups them by location, and outputs them in XML   
 
 ### Requires
