@@ -1,6 +1,8 @@
 # Questival
 Questival Events Website focused on mapping Chicago's festivals and other events
 
+Events are stored in a MySQL database and access via PHP. Site interface is HTML / Javascript with AJAX requests pulling in event data as the user's search is narrowed.
+
 Site is located at [www.questival.events](www.questival.events)
 
 ### File Descriptions
@@ -17,3 +19,11 @@ Site is located at [www.questival.events](www.questival.events)
 ### Requires
   * Google Maps API Key
   * JQuery API
+
+### Database Tables
+  * Orgs - Org_ID, Organization Name, Owner (User_ID), Website, Description
+  * Questival - Event_ID, Event Names, Org_ID, Event Description, Cost, Website
+  * Locations - Location_ID, Latitude, Longitude, Name, Address
+  * Quest_Dates - Date_ID, Event_ID, Date, Time, Location_ID
+  * Users - User_ID, Name, Email
+  * Favorites - Favorite_ID, User_ID, Event_ID
