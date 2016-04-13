@@ -10,7 +10,8 @@ Site is located at [www.questival.events](www.questival.events)
   * /ajax -> Folder that houses the dynamic pages pulled in via AJAX
     * events.php -> PHP file that queries Event info from the database and outputs it in HTML for an AJAX request
     * orgs.php -> PHP file that queries Organization info from the database and outputs it in HTML format for an AJAX request
-    * markers.php -> PHP file which downloads events based on search criteria, groups them by location, and outputs them in XML   
+    * markers.php -> PHP file which downloads events based on search criteria, groups them by location, and outputs them in XML
+    * favoritesList.php -> PHP file that queries the upcoming favorite events for a specified user and outputs them in HTML
 
 ### Requires
   * Google Maps API Key
