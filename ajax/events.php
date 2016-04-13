@@ -11,12 +11,6 @@ include $_SERVER['DOCUMENT_ROOT'] . "/backAgain.php";
 // Pull in GET variables and replicate them as variables in this scope
 
 $eventID = $_GET['eventID'];
-$editName = $_GET['editName'];
-$editDescription = str_replace("’", "'", $_GET['editDescription']);
-$editURL = html_entity_decode($_GET['editURL']);
-$editPrice = $_GET['editPrice'];
-$editPriceMax = $_GET['editPriceMax'];
-$free = $_GET['free'];
 
 // Look up the event information based on the eventID
 
