@@ -22,7 +22,7 @@ set_include_path('/');
 		?> 
 
 	<!-- Import related javascript files and css -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDicPthuLifpEv_4GMnefqp6Qqxt3OOjZ0&sensor=true&libraries=places"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key={INSERT API KEY}&libraries=places"></script>
 		<script type="text/javascript" src="/infobubble/infobubble.js"></script>
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
